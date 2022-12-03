@@ -15,6 +15,11 @@ To test it out, do: <br />
   $ python3 manage.py migrate<br />
   $ python3 manage.py runserver<br />
   
+ ### Python sockets <br />
+ This one uses Python sockets, with a server, that manages and communicates with clients, and a client side, which can be as many as we want<br />
+ Which helps us pick a name and directly have real time access to messages provided by other connected clients.
+ 
+ To test it out, just run the server and as many Clients as you want. <br />
 # Folders and files
 * folder: easy: Python sockets task
 * Everything else: Django Channels task
