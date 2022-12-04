@@ -5,8 +5,6 @@ import socket
 import threading
 import time
 import os
-import subprocess
-import ahocorasick
 from datetime import datetime as d
 from config import HEADER, PORT ,FORMAT ,DISCONNECT_MESSAGE, new_line
 
