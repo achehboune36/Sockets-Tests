@@ -10,8 +10,8 @@ To test it out, do: <br />
 
   $ python3 -m venv env<br />
   $ source env/bin/activate<br />
-  $ pip3 install django<br />
-  $ pip3 install channels<br />
+  $ pip3 install django==4.0.0<br />
+  $ pip3 install channels==3.0.4<br />
   $ python3 manage.py migrate<br />
   $ python3 manage.py runserver<br />
   
